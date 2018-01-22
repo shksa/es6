@@ -4,7 +4,7 @@
   "description": "",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "jest destructuring_test.js"
+    "test": "jest spread_test.js"
   },
   "author": "",
   "license": "ISC",
