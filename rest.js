@@ -4,7 +4,4 @@ function average(...nums){
 	return result
 }
 
-// module.exports = average
-
-console.log('should work for more than two arguments', average(1, 2, 3) === 2)
-console.log('should work for one argument', average(6) === 6)
+module.exports = average

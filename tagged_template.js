@@ -11,4 +11,8 @@ function convert(string){
 		.replace(/"/g, "&quot;")
 }
 
-console.log(html`<b>${process.argv[2]} says</b>: "${process.argv[3]}"`)
+// console.log(html`<b>${process.argv[2]} says</b>: "${process.argv[3]}"`)
+
+module.exports = {
+	html: html
+}
