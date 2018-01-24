@@ -1,6 +1,6 @@
-function makeImportant(string, numOfMarks = string.length){
-	let result = string + "!".repeat(numOfMarks)
-	return result
+function makeImportant(string, numOfMarks = string.length) {
+  const result = string + '!'.repeat(numOfMarks);
+  return result;
 }
 
-module.exports = makeImportant
+module.exports = makeImportant;

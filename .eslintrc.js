@@ -1,28 +1,16 @@
 module.exports = {
     "env": {
-        "browser": true,
-        "es6": true
+        "es6": true,
+        "jest": true,
+        "node": true
     },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "sourceType": "module"
-    },
+    "extends": "airbnb-base",
     "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        // "quotes": [
-        //     "error",
-        //     "double"
-        // ],
         "semi": [
             "error",
             "never"
-        ]
+        ],
+        "no-console": 0,
+        "no-unused-vars": 0
     }
 };

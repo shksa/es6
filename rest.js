@@ -1,7 +1,7 @@
-function average(...nums){
-	let sum = nums.reduce((acc, x) => acc + x , 0)
-	let result = sum / nums.length
-	return result
+function average(...nums) {
+  const sum = nums.reduce((acc, x) => acc + x, 0);
+  const result = sum / nums.length;
+  return result;
 }
 
-module.exports = average
+module.exports = average;

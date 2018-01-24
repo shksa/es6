@@ -1,10 +1,14 @@
+const spread = require('./spread')
+
 
 test('test1', () => {
-	nums = [1]
-	expect(Math.min(...nums)).toBe(1)
+  expect(spread(1, 2, 3)).toBe(1)
 })
 
-test('test1', () => {
-	nums = []
-	expect(Math.min(...nums)).toBe(Infinity)
+test('test2', () => {
+  expect(spread(1)).toBe(1)
+})
+
+test('test3', () => {
+  expect(spread()).toBe(Infinity)
 })
